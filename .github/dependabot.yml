@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "../actions/local-action/" # Location of package manifests
+    directory: "gh-test/.github/actions/local-action/" # Location of package manifests
     schedule:
       interval: "weekly"
  
